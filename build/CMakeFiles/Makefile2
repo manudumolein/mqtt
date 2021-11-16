@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/lessen/mqtt/build
 
 # The main recursive "all" target.
 all: CMakeFiles/Opdracht3_MQTT.dir/all
+all: CMakeFiles/Opdracht3_CGI.dir/all
 
 .PHONY : all
 
@@ -64,6 +65,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Opdracht3_MQTT.dir/clean
+clean: CMakeFiles/Opdracht3_CGI.dir/clean
 
 .PHONY : clean
 
@@ -74,7 +76,7 @@ clean: CMakeFiles/Opdracht3_MQTT.dir/clean
 CMakeFiles/Opdracht3_MQTT.dir/all:
 	$(MAKE) -f CMakeFiles/Opdracht3_MQTT.dir/build.make CMakeFiles/Opdracht3_MQTT.dir/depend
 	$(MAKE) -f CMakeFiles/Opdracht3_MQTT.dir/build.make CMakeFiles/Opdracht3_MQTT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/lessen/mqtt/build/CMakeFiles --progress-num=1,2 "Built target Opdracht3_MQTT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/lessen/mqtt/build/CMakeFiles --progress-num=3,4 "Built target Opdracht3_MQTT"
 .PHONY : CMakeFiles/Opdracht3_MQTT.dir/all
 
 # Build rule for subdir invocation for target.
@@ -93,6 +95,33 @@ Opdracht3_MQTT: CMakeFiles/Opdracht3_MQTT.dir/rule
 CMakeFiles/Opdracht3_MQTT.dir/clean:
 	$(MAKE) -f CMakeFiles/Opdracht3_MQTT.dir/build.make CMakeFiles/Opdracht3_MQTT.dir/clean
 .PHONY : CMakeFiles/Opdracht3_MQTT.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Opdracht3_CGI.dir
+
+# All Build rule for target.
+CMakeFiles/Opdracht3_CGI.dir/all:
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/depend
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/lessen/mqtt/build/CMakeFiles --progress-num=1,2 "Built target Opdracht3_CGI"
+.PHONY : CMakeFiles/Opdracht3_CGI.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Opdracht3_CGI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/lessen/mqtt/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Opdracht3_CGI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/lessen/mqtt/build/CMakeFiles 0
+.PHONY : CMakeFiles/Opdracht3_CGI.dir/rule
+
+# Convenience name for target.
+Opdracht3_CGI: CMakeFiles/Opdracht3_CGI.dir/rule
+
+.PHONY : Opdracht3_CGI
+
+# clean rule for target.
+CMakeFiles/Opdracht3_CGI.dir/clean:
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/clean
+.PHONY : CMakeFiles/Opdracht3_CGI.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

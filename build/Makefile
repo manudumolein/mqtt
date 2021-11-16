@@ -123,6 +123,46 @@ Opdracht3_MQTT/fast:
 	$(MAKE) -f CMakeFiles/Opdracht3_MQTT.dir/build.make CMakeFiles/Opdracht3_MQTT.dir/build
 .PHONY : Opdracht3_MQTT/fast
 
+#=============================================================================
+# Target rules for targets named Opdracht3_CGI
+
+# Build rule for target.
+Opdracht3_CGI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Opdracht3_CGI
+.PHONY : Opdracht3_CGI
+
+# fast build rule for target.
+Opdracht3_CGI/fast:
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/build
+.PHONY : Opdracht3_CGI/fast
+
+cgi-website.o: cgi-website.c.o
+
+.PHONY : cgi-website.o
+
+# target to build an object file
+cgi-website.c.o:
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/cgi-website.c.o
+.PHONY : cgi-website.c.o
+
+cgi-website.i: cgi-website.c.i
+
+.PHONY : cgi-website.i
+
+# target to preprocess a source file
+cgi-website.c.i:
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/cgi-website.c.i
+.PHONY : cgi-website.c.i
+
+cgi-website.s: cgi-website.c.s
+
+.PHONY : cgi-website.s
+
+# target to generate assembly for a file
+cgi-website.c.s:
+	$(MAKE) -f CMakeFiles/Opdracht3_CGI.dir/build.make CMakeFiles/Opdracht3_CGI.dir/cgi-website.c.s
+.PHONY : cgi-website.c.s
+
 mqtt_publish.o: mqtt_publish.c.o
 
 .PHONY : mqtt_publish.o
@@ -157,8 +197,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Opdracht3_MQTT"
 	@echo "... edit_cache"
+	@echo "... Opdracht3_MQTT"
+	@echo "... Opdracht3_CGI"
+	@echo "... cgi-website.o"
+	@echo "... cgi-website.i"
+	@echo "... cgi-website.s"
 	@echo "... mqtt_publish.o"
 	@echo "... mqtt_publish.i"
 	@echo "... mqtt_publish.s"

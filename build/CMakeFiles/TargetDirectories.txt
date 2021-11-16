@@ -1,3 +1,4 @@
 /home/pi/lessen/mqtt/build/CMakeFiles/rebuild_cache.dir
-/home/pi/lessen/mqtt/build/CMakeFiles/Opdracht3_MQTT.dir
 /home/pi/lessen/mqtt/build/CMakeFiles/edit_cache.dir
+/home/pi/lessen/mqtt/build/CMakeFiles/Opdracht3_MQTT.dir
+/home/pi/lessen/mqtt/build/CMakeFiles/Opdracht3_CGI.dir

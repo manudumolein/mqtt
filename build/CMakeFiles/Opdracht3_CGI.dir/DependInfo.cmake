@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pi/lessen/mqtt/mqtt_publish.c" "/home/pi/lessen/mqtt/build/CMakeFiles/Opdracht3_MQTT.dir/mqtt_publish.c.o"
+  "/home/pi/lessen/mqtt/cgi-website.c" "/home/pi/lessen/mqtt/build/CMakeFiles/Opdracht3_CGI.dir/cgi-website.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

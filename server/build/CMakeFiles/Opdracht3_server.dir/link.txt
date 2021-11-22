@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Opdracht3_server.dir/mqtt_subscribe.c.o  -o Opdracht3_server  -lmariadb -lpaho-mqtt3c 

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Opdracht3_website.dir/cgi-website.c.o  -o Opdracht3_website  -lmariadb 

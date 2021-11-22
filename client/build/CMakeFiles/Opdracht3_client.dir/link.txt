@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Opdracht3_client.dir/mqtt_publish.c.o CMakeFiles/Opdracht3_client.dir/TC74.c.o  -o Opdracht3_client  -lpaho-mqtt3c 

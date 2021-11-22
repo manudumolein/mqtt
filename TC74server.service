@@ -1,0 +1,12 @@
+[Unit]
+Description=Temperature MQTT systemd service.
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/lessen/Opdracht3/server/build/Opdracht3_server
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/lessen/Opdracht3/client/TC74.h
+
+/home/pi/lessen/Opdracht3/client/mqtt_publish.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+MQTTClient.h
+/home/pi/lessen/Opdracht3/client/MQTTClient.h
+TC74.h
+/home/pi/lessen/Opdracht3/client/TC74.h
+

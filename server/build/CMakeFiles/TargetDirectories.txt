@@ -1,0 +1,3 @@
+/home/pi/lessen/Opdracht3/server/build/CMakeFiles/rebuild_cache.dir
+/home/pi/lessen/Opdracht3/server/build/CMakeFiles/Opdracht3_server.dir
+/home/pi/lessen/Opdracht3/server/build/CMakeFiles/edit_cache.dir

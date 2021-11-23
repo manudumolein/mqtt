@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/Opdracht3_MQTT.dir/mqtt_publish.c.o  -o Opdracht3_MQTT  -lmariadb -lpaho-mqtt3c 
